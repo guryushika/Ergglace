@@ -1,8 +1,7 @@
 # Ergglace
 
-Une disposition pour le français, l’anglais et la programmation. Ce projet est basé sur [Erglace](https://github.com/cmoinard/Erglace), lui-même dérivé de [ErgEAU][ergeau], et reprend de nombreuses conventions de [Ergo-L][ergol].
+Une disposition pour le français, l’anglais et la programmation. Ce projet est basé sur [Erglace](https://github.com/cmoinard/Erglace), lui-même dérivé de ErgEAU, et reprend de nombreuses conventions de [Ergo-L][ergol].
 
-[ergeau]: https://github.com/IgrecL/ErgEAU
 [ergol]: https://ergol.org
 
 ## Cette version
@@ -30,18 +29,36 @@ Le principe reste le même : la disposition de base n’est pas modifiée. Cette
 
 
 ## Disposition
-
 ![couche de base](img/erglace.svg)
 
-La touche morte ★ donne accès aux caractères accentués nécessaires pour écrire correctement en français, ainsi qu’aux ajouts de cette variante Ergglace :
+Version originale (Erglace de cmoinard) :
+![couche touche morte originale](img/erglace_1dk.svg)
 
-![couche touche morte](img/ergglace_1dk.svg)
+Version personnelle (Ergglace) :
+
+La disposition reste la même, avec quelques ajustements quality of life dans les symboles accessibles via la touche morte (1DK).
+![couche touche morte Ergglace](img/ergglace_1dk.svg)
+
+Caractères déplacés (entre `erglace.toml` et `ergglace.toml`) :
+
+- `@` (COMMERCIAL AT) : ajouté sur `Z` en couche 1DK (était absent) plus facile d’accès mais serait plus logique sur `Q` comme altgr+Q fait @
+- `ß` (LATIN SMALL LETTER SHARP S) : retiré de `X` en couche 1DK car je ne l’utilise pas et ne l’utiliserai jamais
+- `€` (EURO SIGN) : ajouté sur `I` en couche 1DK
+- `æ` (LATIN SMALL LETTER AE) : déplacé de la couche 1DK principale vers l’autre niveau 1DK sur `I`, inutile pour mon utilisation je n’écris pas en latin mais reste accessible pour les rares mots l’utilisant
+- `•` (BULLET) : déplacé de `P` vers `;` en accès 1DK, je ne m’en suis jamais servi et n’en voit pas l’utilité mais reste accessible
+- `·` (MIDDLE DOT) : déplacé de `P` vers `:` en accès 1DK, je ne m’en suis jamais servi et n’en voit pas l’utilité mais reste accessible
+- `µ` (MICRO SIGN) : déplacé de `M` vers l’autre niveau 1DK sur `M`, je ne m’en suis jamais servi et n’en voit pas l’utilité mais reste accessible
+- `ñ` (LATIN SMALL LETTER N WITH TILDE) : déplacé de `V` vers l’autre niveau 1DK sur `V`, je ne m’en suis jamais servi et n’en voit pas l’utilité en français mais reste accessible au cas où il fallait taper un mot espagnole
+- `(` (LEFT PARENTHESIS) : ajouté sur `B` en couche 1DK, l’accès 1DK des parenthèse me manque
+- `)` (RIGHT PARENTHESIS) : ajouté sur `P` en couche 1DK
+- `«` (LEFT-POINTING DOUBLE ANGLE QUOTATION MARK) : ajouté sur `M` en couche 1DK, accès 1DK, comme sur Ergo-l, plus pratique qu’avec la couche ALTGR
+- `»` (RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK) : ajouté sur `V` en couche 1DK
+- `/` (SOLIDUS) : ajouté sur `W` en couche 1DK, accès 1DK plus pratique qu’avec la couche ALTGR
+- `\` (REVERSE SOLIDUS) : ajouté sur `G` en couche 1DK, accès 1DK plus pratique qu’avec la couche ALTGR
 
 La couche AltGr, issue de [Ergo-L][ergol], est entièrement dédiée aux symboles de programmation :
-
 ![couche AltGr](img/erglace_altgr.svg)
 
-Images supplémentaires : [toutes les couches](img/erglace_all.svg) et variante [ISO](img/erglace_iso.svg) ([1DK](img/erglace_iso_1dk.svg), [AltGr](img/erglace_iso_altgr.svg), [Toutes](img/erglace_iso_all.svg)).
 
 ## Comparaison avec Ergo-L
 
