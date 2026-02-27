@@ -51,9 +51,9 @@ Caractères déplacés (entre `erglace.toml` et `ergglace.toml`) :
 - `·` (MIDDLE DOT) : déplacé de `P` vers `:` en accès 1DK ; je ne m’en suis jamais servi et n’en vois pas l’utilité, mais il reste accessible
 - `µ` (MICRO SIGN) : déplacé de `M` vers l’autre niveau 1DK sur `M` ; je ne m’en suis jamais servi et n’en vois pas l’utilité, mais il reste accessible
 - `ñ` (LATIN SMALL LETTER N WITH TILDE) : déplacé de `V` vers l’autre niveau 1DK sur `V` ; je ne m’en suis jamais servi et n’en vois pas l’utilité en français, mais il reste accessible au cas où il faudrait taper un mot espagnol
-- `(` (LEFT PARENTHESIS) : ajouté sur `B` en couche 1DK ; l’accès 1DK des parenthèses me manquait
+- `(` (LEFT PARENTHESIS) : ajouté sur `B` en couche 1DK ; l’accès 1DK des parenthèses de Ergol-L me manquait
 - `)` (RIGHT PARENTHESIS) : ajouté sur `P` en couche 1DK
-- `«` (LEFT-POINTING DOUBLE ANGLE QUOTATION MARK) : ajouté sur `M` en couche 1DK ; accès 1DK, comme sur Ergo-L, plus pratique qu’avec la couche AltGr
+- `«` (LEFT-POINTING DOUBLE ANGLE QUOTATION MARK) : ajouté sur `M` en couche 1DK ; accès 1DK plus pratique qu’avec la ligne des chiffres
 - `»` (RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK) : ajouté sur `V` en couche 1DK
 - `/` (SOLIDUS) : ajouté sur `W` en couche 1DK ; accès 1DK plus pratique qu’avec la couche AltGr
 - `\` (REVERSE SOLIDUS) : ajouté sur `G` en couche 1DK ; accès 1DK plus pratique qu’avec la couche AltGr
