@@ -1,65 +1,66 @@
-# Erglace
+# Ergglace
 
-A layout for French, English and programming. It is a fork of [ErgEAU][ergeau], initially adapted for compact keyboards compatibility. It uses many conventions of [Ergo-L][ergol].
+Une disposition pour le français, l’anglais et la programmation. Ce projet est basé sur [Erglace](https://github.com/cmoinard/Erglace), lui-même dérivé de [ErgEAU][ergeau], et reprend de nombreuses conventions de [Ergo-L][ergol].
 
 [ergeau]: https://github.com/IgrecL/ErgEAU
 [ergol]: https://ergol.org
 
-## Features
+## Cette version
 
-- a keyboard layout optimized for French and English
-- uses a dead key for the most frequent accented characters
-- uses the AltGr layer for programming symbols
-- fits on 30 keys for compact keyboards compatibility
-- trades easy access to common shortcuts for full optimization
-- lower SFB than most previous French layouts
-- few redirects, at the cost of few rolls
+Ergglace est ma version personnelle de la disposition de cmoinard.
 
-## Links
+Le principe reste le même : la disposition de base n’est pas modifiée. Cette variante ajoute surtout quelques symboles accessibles via la touche morte (1DK), pour une meilleure quality of life à l’usage quotidien.
 
-- [Test the layout][test]
-- [Learn the layout][learn]
-- [Design notes](NOTES.md)
-- [Statistics][stats]
+## Caractéristiques
+
+- disposition optimisée pour le français et l’anglais
+- utilisation d’une touche morte pour les caractères accentués les plus fréquents
+- couche AltGr dédiée aux symboles de programmation
+- compatible avec les claviers compacts (30 touches)
+- optimisation globale privilégiée par rapport à l’accès direct à certains raccourcis
+- SFB plus bas que la plupart des dispositions françaises précédentes
+- peu de redirections, au prix de moins de roulements
+
+## Liens
+
 - [Discord (Ergo-L)][discord]
 
-[test]: https://ergol.org/erglace
-[learn]: https://ergol.org/dactylo/#erglace
+
 [discord]: https://discord.gg/RH34GjQEgC
-[stats]: https://ergol.org/stats/#/erglace/ol40/en+fr
 
-## Layout
 
-![base layout](img/erglace.svg)
+## Disposition
 
-The dead key ★ gives access to all accented letters you’ll need to write in proper French:
+![couche de base](img/erglace.svg)
 
-![dead key layout](img/erglace_1dk.svg)
+La touche morte ★ donne accès aux caractères accentués nécessaires pour écrire correctement en français, ainsi qu’aux ajouts de cette variante Ergglace :
 
-The AltGr layer, taken from [Ergo-L][ergol], is fully dedicated to programming symbols:
+![couche touche morte](img/ergglace_1dk.svg)
 
-![altgr layout](img/erglace_altgr.svg)
+La couche AltGr, issue de [Ergo-L][ergol], est entièrement dédiée aux symboles de programmation :
 
-Here are additional images with [all the layers](img/erglace_all.svg) or for the [ISO layout](img/erglace_iso.svg) ([1DK](img/erglace_iso_1dk.svg), [AltGr](img/erglace_iso_altgr.svg), [All](img/erglace_iso_all.svg)).
+![couche AltGr](img/erglace_altgr.svg)
 
-## Comparison to Ergo-L
+Images supplémentaires : [toutes les couches](img/erglace_all.svg) et variante [ISO](img/erglace_iso.svg) ([1DK](img/erglace_iso_1dk.svg), [AltGr](img/erglace_iso_altgr.svg), [Toutes](img/erglace_iso_all.svg)).
 
-> Erglace abandonne l'accès facile au raccourcis usuels (Ctrl+C, Ctrl+V, ...) pour atteindre de meilleurs statistiques, en particulier un SFB plus bas, sous les 1%. Le SFB correspond aux enchaînements de deux caractères qui utilisent le même doigt, ce qui ralentit la vitesse de frappe.
+## Comparaison avec Ergo-L
+
+> Erglace abandonne l’accès facile aux raccourcis usuels (Ctrl+C, Ctrl+V, etc.) pour obtenir de meilleures statistiques, en particulier un SFB plus bas (sous 1%). Le SFB correspond aux enchaînements de deux caractères utilisant le même doigt, ce qui ralentit la frappe.
 >
-> L'autre différence est qu'Erglace cherche à minimiser les redirections, c'est-à-dire les enchaînements de trois caractères d'une même main avec un changement de direction, mouvement considéré comme inconfortable. Pour ce faire, toutes les voyelles se retrouvent d'un côté, comme en Bépo, ce qui favorise l'alternance des mains. Le désavantage est que la disposition a moins de roulements, c'est-à-dire des enchaînements de trois lettres d'une main dans une même direction, qui sont appréciables.
+> L’autre différence est la volonté de minimiser les redirections, c’est-à-dire les enchaînements de trois caractères d’une même main avec changement de direction, mouvement considéré comme inconfortable. Pour cela, les voyelles sont regroupées d’un côté, comme en Bépo, ce qui favorise l’alternance des mains. Le désavantage est un nombre de roulements plus faible.
 
-## Install
+## Installation
 
-Get the latest driver for your system from the [release section][releases]. See the documentation of [Kalamine][kalamine-layout] to learn how to use it.
+Récupérez le pilote correspondant à votre système depuis la [section Releases][releases]. Consultez aussi la documentation de [Kalamine][kalamine-layout] pour les détails d’utilisation.
 
-On Linux, you can use `xkalamine` to install it. Follow the steps from the [Ergo-L repository][ergol-install] using `erglace.toml` from the [release section][releases].
+Sous Linux, vous pouvez utiliser `xkalamine` pour l’installation. Suivez les étapes du dépôt [Ergo-L][ergol-install] en utilisant `erglace.toml` ou `ergglace.toml` selon la variante souhaitée.
 
 [releases]: https://github.com/Lysquid/Erglace/releases
 [kalamine-layout]: https://github.com/OneDeadKey/kalamine#using-distributable-layouts
 [ergol-install]: https://github.com/Nuclear-Squid/ergol#install-linux-only
 
-## Make your own
+## Personnaliser la disposition
 
-You can easily modify [the layout](erglace.toml), which is a human-readable ASCII art. Then, use [Kalamine][kalamine] to generate the drivers. Let's find the best layout!
+Vous pouvez modifier facilement [la disposition](erglace.toml) (ou sa variante `ergglace.toml`), décrite en ASCII art lisible. Ensuite, utilisez [Kalamine][kalamine] pour générer les pilotes.
 
 [kalamine]: https://github.com/OneDeadKey/kalamine
